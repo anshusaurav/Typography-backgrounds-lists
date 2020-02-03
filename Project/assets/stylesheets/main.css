@@ -1,0 +1,280 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, 
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* CSS added by me */
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+body{
+    line-height: 1.5;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+.flex-cnt {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.padding {
+    padding: 60px;
+}
+header {
+    background: #323347;
+    background-image: url('../images/banner.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nav-logo a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 26px; 
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-links a {
+   text-decoration: none;
+   color: white;
+   font-family: 'Titillium Web', sans-serif;
+   font-size: 20px;
+   padding: 0 12px;
+   text-transform: uppercase;
+}
+.header h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.header h3{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px; 
+    font-weight: 700;
+    word-spacing: 1px;
+    color: #E96C77;
+    text-align: center;
+    padding-bottom: 24px;
+}
+.hero{
+    margin-top: 60px;
+}
+.footer {
+    font-size: 18px;
+    font-weight: 400;
+    background: #252C22;
+}
+.red-btn {
+    color: white;
+    padding: 10px 16px;
+    font-family: 'Titillium Web', sans-serif;
+    background: #E96C77;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 41%;
+    border: none;
+    text-transform: uppercase;
+}
+.primary-section {
+    background: #F5F5F5;
+}
+.primary-intro-section h2, .secondary-intro-section h2, .tertiary-intro-section h2{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 26px; 
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333;
+    padding-bottom: 16px;
+    
+}
+.primary-intro-section p, .secondary-intro-section p, .tertiary-intro-section p{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fas {
+    color: white;
+    width: 40px;
+    line-height: 0.5;
+}
+.primary-intro-section, .secondary-intro-section, .tertiary-intro-section {
+    padding-bottom: 80px;
+}
+.primary-intro-item {
+    width: 29%;
+    padding: 42px 2%;
+    background: white;
+}
+.primary-intro-item div, .secondary-intro-item div, .tertiary-intro-item div {
+    display: flex;
+    justify-content: center;
+    
+}
+.primary-intro-item h3, .secondary-intro-item h3, .tertiary-intro-item h3{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 20px; 
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #333;
+    padding: 20px 0;
+}
+.primary-intro-item p, .secondary-intro-item p, .tertiary-intro-item p{
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    padding-bottom: 16px;
+}
+.secondary-section{
+
+    background: #E96C77;
+}
+.secondary-intro-section p, .secondary-intro-section h2,.secondary-intro-item p, .secondary-intro-item h3 {
+    color: white;
+}
+.secondary-intro-item{
+    width: 29%;
+    padding: 18px;
+    margin: 18px 2%;
+    background: #EC828C;
+}
+.secondary-section .flex-cnt{
+    justify-content: center;
+}
+
+.tertiary-section{
+
+    background: white;
+}
+.tertiary-intro-section p, .tertiary-intro-section h2,.tertiary-intro-item p, .tertiary-intro-item h3 {
+    color: #555555;
+}
+.tertiary-intro-item{
+    width: 30%;
+    padding:  0 18px;
+    margin: 0 1%;
+    background: white;
+}
+.tertiary-section flex-cnt{
+    justify-content: space-around;
+    align-content: space-around;
+}
+.tertiary-section .red-btn {
+    border: 1px solid #aaaaaa;
+    background: white;
+    font-weight: 600;
+    color: #555555;
+    margin: 4px 0;
+}
+.footer{
+    background: #ECECEC;
+    padding: 40px;
+}
+.footer-link s{
+    padding: 24px 0;
+}
+.footer .flex-cnt {
+    justify-content: center;
+}
+
+.footer a{
+    color: #ADADAD;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 16px;
+
+}
+.right-border{
+    border-right: 1px solid #ADADAD;
+}
+.small{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ADADAD;
+}
+
+
+.primary-intro-item div{
+    border: 1px solid #E96C77;
+    border-radius: 50%;
+    background: linear-gradient( 45deg, #D1616B 50%, #E96C77 50% );
+    padding-top: 8px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.secondary-intro-item div{
+    border: 1px solid #E96C77;
+    border-radius: 50%;
+    background: linear-gradient( 45deg, #525360 50%, #5B5C6B     50% );
+    padding-top: 8px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin: 0 auto;
+}

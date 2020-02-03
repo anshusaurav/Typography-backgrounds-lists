@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, 
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
@@ -47,23 +47,82 @@ table {
     border-spacing: 0;
 }
 
+
 /* CSS added by me */
-.container{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1440px;
-    height: 800px;
+.container {
+    max-width: 1140px;
     margin: 0 auto;
-    background:white;
-    justify-content: space-evenly;
-    align-content: space-around;
+    
+}
+.flex-cnt{
+    display: flex;
+}
+body{
+    line-height: 1.5;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+header {
+    font-size: 18px;
+    font-weight: 500;
+    background: #F96115;
+}
+.nav-links {
+      
+}
+.nav-links a {
+   text-decoration: none;
+   color: white;
+   padding: 20px 0;
+   padding-right: 60px;
+}
+.padding {
+    padding: 60px 0;
+}
+.first-section .flex-cnt{
+    justify-content: space-between;
+    /*background: #005979;
+    box-shadow: 10px 10px 12px -4px rgba(0,0,0,0.75);*/
+}
+.flex-cnt > div {
+    padding: 32px;
+    width: 25%;
+    background: #005979;
+    box-shadow: 10px 10px 12px -4px rgba(0,0,0,0.75);
+}
+ol > li {
+    font-family: 'Roboto Mono', monospace;
+    padding: 4px 0;
+    list-style-type:decimal;
+}
+ul > li {
+    font-family: 'Roboto Mono', monospace;
+    padding: 4px 0;
+    list-style-type:disc;
+}
+.first-section, .second-section{
+    background: #D4CEA7;
+}
+.special-list-image li{
+    font-family: 'Roboto Mono', monospace;
+    list-style-image: url('../images/right.png');
+}
+dt {
+    font-size: 28px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+dd{
+    word-spacing: 1px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
 }
 
-.small-box {
-    background: transparent;
-    width: 30%;
-}
-.img-responsive {
-    width: 100%;
-}
 
+.footer {
+    font-size: 18px;
+    font-weight: 400;
+    background: #252C22;
+}

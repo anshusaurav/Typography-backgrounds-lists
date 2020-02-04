@@ -91,7 +91,7 @@ header {
    padding: 0 12px;
    text-transform: uppercase;
 }
-.header h2 {
+.header h2{
     font-family: 'Titillium Web', sans-serif;
     font-size: 36px;
     font-weight: 900;
@@ -102,7 +102,7 @@ header {
     text-align: center;
     padding-bottom: 20px;
 }
-.header h3 {
+.header h3{
     font-family: 'Titillium Web', sans-serif;
     font-size: 28px; 
     font-weight: 700;
@@ -111,7 +111,7 @@ header {
     text-align: center;
     padding-bottom: 24px;
 }
-.hero {
+.hero{
     margin-top: 60px;
 }
 .footer {
@@ -134,45 +134,42 @@ header {
 .primary-section {
     background: #F5F5F5;
 }
-.primary-intro-section h2, .secondary-intro-section h2, .tertiary-intro-section h2, .contact-intro-section h2  {
+.primary-intro-section h2, .secondary-intro-section h2, .tertiary-intro-section h2{
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    font-size: 28px; 
-    font-weight: 800;
-    line-height: 2.6;
+    font-size: 26px; 
+    font-weight: 700;
     text-transform: uppercase;
     color: #333;
-    padding-bottom: 40px;
+    padding-bottom: 16px;
     
 }
-.primary-intro-section p, .secondary-intro-section p, .tertiary-intro-section p, .contact-intro-section p {
+.primary-intro-section p, .secondary-intro-section p, .tertiary-intro-section p{
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     color: #333;
     font-size: 16px;
     font-weight: 400;
-    padding-bottom: 24px;
 }
 .fas {
     color: white;
     width: 40px;
     line-height: 0.5;
 }
-.primary-intro-section, .secondary-intro-section, .tertiary-intro-section .contact-intro-section{
+.primary-intro-section, .secondary-intro-section, .tertiary-intro-section {
     padding-bottom: 80px;
 }
 .primary-intro-item {
     width: 29%;
     padding: 42px 2%;
     background: white;
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
-.primary-intro-item div, .secondary-intro-item div, .tertiary-intro-item div , .contact-intro-item div{
+.primary-intro-item div, .secondary-intro-item div, .tertiary-intro-item div {
     display: flex;
     justify-content: center;
     
 }
-.primary-intro-item h3, .secondary-intro-item h3, .tertiary-intro-item h3, .contact-intro-item h3{
+.primary-intro-item h3, .secondary-intro-item h3, .tertiary-intro-item h3{
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     font-size: 20px; 
@@ -181,45 +178,44 @@ header {
     color: #333;
     padding: 20px 0;
 }
-.primary-intro-item p, .secondary-intro-item p, .tertiary-intro-item p, .contact-intro-item p{
+.primary-intro-item p, .secondary-intro-item p, .tertiary-intro-item p{
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
     color: #333;
     font-size: 14px;
     padding-bottom: 16px;
 }
-.secondary-section {
+.secondary-section{
 
     background: #E96C77;
 }
 .secondary-intro-section p, .secondary-intro-section h2,.secondary-intro-item p, .secondary-intro-item h3 {
     color: white;
 }
-.secondary-intro-item {
+.secondary-intro-item{
     width: 29%;
     padding: 18px;
     margin: 18px 2%;
     background: #EC828C;
-    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
-.secondary-section .flex-cnt {
+.secondary-section .flex-cnt{
     justify-content: center;
 }
 
-.tertiary-section {
+.tertiary-section{
 
     background: white;
 }
 .tertiary-intro-section p, .tertiary-intro-section h2,.tertiary-intro-item p, .tertiary-intro-item h3 {
     color: #555555;
 }
-.tertiary-intro-item {
+.tertiary-intro-item{
     width: 30%;
     padding:  0 18px;
     margin: 0 1%;
     background: white;
 }
-.tertiary-section .flex-cnt {
+.tertiary-section flex-cnt{
     justify-content: space-around;
     align-content: space-around;
 }
@@ -230,29 +226,6 @@ header {
     color: #555555;
     margin: 4px 0;
 }
-
-
-.contact-section {
-
-    background: #F5F5F5;
-}
-.contact-intro-section p, .contact-intro-section h2,.contact-intro-item p, .contact-intro-item h3 {
-    color: #555555;
-}
-.contact-intro-item {
-    padding: 0 12px;
-}
-.contact-section .flex-cnt {
-    justify-content: center;
-}
-.tertiary-section .red-btn {
-    border: 1px solid #888888;
-    background: white;
-    font-weight: 600;
-    color: #555555;
-    margin: 4px 0;
-}
-
 .footer{
     background: #ECECEC;
     padding: 40px;
@@ -298,149 +271,10 @@ header {
 .secondary-intro-item div{
     border: 1px solid #E96C77;
     border-radius: 50%;
-    background: linear-gradient( 45deg, #525360 50%, #5B5C6B 50% );
+    background: linear-gradient( 45deg, #525360 50%, #5B5C6B     50% );
     padding-top: 8px;
     height: 40px;
     width: 40px;
     text-align: center;
     margin: 0 auto;
-}
-
-.tick-flex-item a{
-    border: 1px solid #E96C77;
-    border-radius: 50%;
-    background: linear-gradient( 45deg, #525360 50%, #5B5C6B 50% );
-    padding-top: 8px;
-    height: 40px;
-    width: 40px;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.thirdLeft{
-    width: 80%;
-}
-
-.contact-intro-item .red-btn{
-    margin: 4px 24px;
-}
-.white-btn{
-    border: 1px solid #888888;
-    background: white;
-    font-weight: 600;
-    color: #555555;
-}
-textarea{
-    padding: 4px 8px;
-    color: #eeeeee;
-    font-size: 16px;
-    background: transparent;
-    border: 1px solid #555555;
-    margin: 12px 0;
-    width: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-input{
-    padding: 4px 12px;
-    margin: 12px 0;
-    color: #eeeeee;
-    font-size: 16px;
-    background: transparent;
-    border: 1px solid #555555;
-    width: 100%;
-    font-family: 'Titillium Web', sans-serif;
-}
-.contact-flex{
-    display: flex;
-    justify-content: center;
-}
-.contact-intro-section button{
-    margin-bottom: 32px;
-}
-.contact-flex-item a{
-    text-decoration: none;
-}
-.firstButton{
-    color: white;
-}
-.secondButton{
-    color: #555555;
-}
-.contact-intro-item .fas,.contact-intro-item .fab {
-    color: grey;
-    width: 40px;
-    line-height: 0.5;
-
-}
-.contact-flex-item{
-    width: 50%;
-}
-.vertical-flex{
-    width: 40%;
-    flex-flow: row wrap;
-    justify-content: flex-start;
-}
-.tick-flex-item{
-    width: 100%;
-    border-bottom: 1px solid #888888;
-    padding: 4px 0;
-
-}
-.tick-flex-item span{
-    font-family: 'Titillium Web', sans-serif;
-    color: #333;
-    font-size: 14px;
-    padding-left: 12px;
-}
-.tick-flex-item a{
-    margin-left: 0;
-}
-.form{
-    background: white;
-}
-
-.flex-main{
-    display: flex;
-    margin: 0 30%;
-}
-.flex-item-basic{
-    width: 360px;
-}
-.flex-item-left-basic, .flex-item-right-basic{
-    width: 100%;
-    height: 0px;
-    border-top: 1px solid #999999;
-}
-.flex-left-dec {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100px;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.flex-right-dec{  
-    display: flex;
-    flex-wrap: wrap;
-    width: 100px;
-    flex-direction: row;
-    justify-content: flex-start;
-}
-
-.leftOne{
-    width: 100px;
-}
-.leftTwo{
-    width: 80px;
-}
-.leftThree{
-    width: 60px;
-}
-.rightOne{
-    width: 100px;
-}
-.rightTwo{
-    width: 80px;
-}
-.rightThree{
-    width: 60px;
 }
